@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grade calculater"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/text3"
+            android:layout_width="200dp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="80sp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="quizes 15%"
+            android:textSize="20sp"
+            android:background="@color/material_dynamic_neutral_variant40"
+            android:layout_marginTop="50sp"
+            />
+
+        <EditText
+            android:id="@+id/text4"
+            android:layout_width="200dp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="30sp"
+            android:background="@color/material_dynamic_neutral_variant40"
+            android:ems="10"
+            android:hint=" homework 25%"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/text5"
+            android:layout_width="200dp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="80sp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="mid term 30%"
+            android:textSize="20sp"
+            android:background="@color/material_dynamic_neutral_variant40"
+            android:layout_marginTop="30sp"
+            />
+        <EditText
+            android:id="@+id/text6"
+            android:layout_width="200dp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="80sp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="final 30%"
+            android:textSize="20sp"
+            android:background="@color/material_dynamic_neutral_variant40"
+            android:layout_marginTop="30sp"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="20sp"
+            android:text="culculate" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="90sp"
+            android:text="result"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
